@@ -1,6 +1,6 @@
 package com.ecommerce;
 
-import utilities.Console;
+import com.utilities.Console;
 
 import java.util.ArrayList;
 import java.util.Timer;
