@@ -1,4 +1,4 @@
-package utilities;
+package com.utilities;
 
 import java.util.Scanner;
 

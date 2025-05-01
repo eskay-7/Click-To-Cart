@@ -33,7 +33,7 @@ This project is ideal for practicing core Java concepts, including class design,
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/click-to-cart.git
+   git clone git@github.com:eskay-7/Click-To-Cart.git
    ```
 2. Compile the Java files:
    ```bash
