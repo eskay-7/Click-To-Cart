@@ -1,0 +1,44 @@
+public class Todo {
+  
+    private Long id;
+
+    private String name;
+
+    private LocalDate createdAt;
+
+    private boolean completed;
+}
+
+
+
+
+
+
+
+
+@GetMapping("/api/todo")
+public List<Todo> getAllTodos() {
+
+  List<Todo> todos = service.fetchAllTodos();
+
+  return todos;
+
+}
+
+
+@GetMapping("/api/todo{id}")
+public Todo getAllTodos(int id) {
+
+  Todo todo = service.fetchTodo(id);
+
+  return todo;
+
+}
+
+
+@PostMapping("/api/todo{id}")
+public Todo addTodo(Todo todoRequest) {
+  Todo todos = service.createTodos(todoRequest);
+
+  return todos;
+}
